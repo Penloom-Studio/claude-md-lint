@@ -1,0 +1,30 @@
+{
+  "name": "claude-md-lint",
+  "version": "1.0.0",
+  "description": "An instruction-budget linter for CLAUDE.md and agent system files. Counts your instructions against the model's adherence budget and flags rules that quietly get ignored.",
+  "type": "module",
+  "bin": {
+    "claude-md-lint": "index.mjs"
+  },
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs README.md || true"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-md",
+    "ai-agents",
+    "llm",
+    "prompt-engineering",
+    "linter",
+    "system-prompt",
+    "agent"
+  ],
+  "author": "Penloom (https://penloomstudio.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://penloomstudio.com"
+}
