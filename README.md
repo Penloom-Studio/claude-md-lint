@@ -49,7 +49,8 @@ The budget framing comes from how adherence actually falls off as instruction co
 
 This linter tells you *where* your instruction file leaks. If you want the fixes:
 
+- **The CLAUDE.md Optimizer Pack ($2.99)** — the exact fixes for what this linter flags: a 60-second scorecard, the mechanism in plain English, five real before→after rewrites, and drop-in templates you can paste today (works for Claude Code, the API, or Cursor): **[get it →](https://buy.stripe.com/aFa6oGcJk2zQ5HtdP13F607)**
 - **Free field guide** — 7 reliability rules + paste-ready Claude Code guardrails + a pre-ship checklist: **https://penloomstudio.com/field-guide.html**
-- **The Claude Code Power-User Pack** — lean `CLAUDE.md` templates, ready-made subagents, and the deterministic **hooks** this linter keeps telling you to write: **https://penloomstudio.com**
+- **The Claude Code Power-User Pack ($17)** — going deeper: lean `CLAUDE.md` templates, ready-made subagents, and the deterministic **hooks** this linter keeps telling you to write: **https://penloomstudio.com**
 
 Built by [Penloom](https://penloomstudio.com). MIT licensed — fork it, ship it, send a PR.
