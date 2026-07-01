@@ -99,6 +99,6 @@ if (mustHappen.length) {
   console.log(`\nTop must-happen rules to consider moving into hooks:`);
   for (const r of mustHappen.slice(0, 5)) console.log(`   L${r.n}: ${r.text.slice(0, 90)}${r.text.length > 90 ? "…" : ""}`);
 }
-console.log(`\nWhy this matters & the full playbook (free): https://penloomstudio.com/field-guide.html`);
-console.log(`Lean CLAUDE.md templates + ready-made hooks (Power-User Pack): https://penloomstudio.com\n`);
+console.log(`\nWant the exact fixes for what this flagged? The CLAUDE.md Optimizer Pack ($2.99) — a 60-sec scorecard, 5 before→after rewrites + paste-ready templates: https://buy.stripe.com/aFa6oGcJk2zQ5HtdP13F607`);
+console.log(`Free first: the reliability field guide (rules + paste-ready guardrails): https://penloomstudio.com/field-guide.html\n`);
 process.exit(score >= 60 ? 0 : 1);
