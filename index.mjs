@@ -7,7 +7,7 @@
 // against that budget and flags the patterns that waste it.
 //
 // Zero dependencies. Usage:
-//   npx claude-md-lint <path>            # default ./CLAUDE.md
+//   npx github:Penloom-Studio/claude-md-lint <path>            # default ./CLAUDE.md
 //   node index.mjs CLAUDE.md --json      # machine-readable output
 //
 // MIT licensed. Built by Penloom — https://penloomstudio.com
@@ -23,7 +23,7 @@ const json = args.includes("--json");
 const file = args.find(a => !a.startsWith("--")) || "CLAUDE.md";
 
 if (!fs.existsSync(file)) {
-  console.error(`claude-md-lint: file not found: ${file}\nUsage: npx claude-md-lint <path-to-CLAUDE.md>`);
+  console.error(`claude-md-lint: file not found: ${file}\nUsage: npx github:Penloom-Studio/claude-md-lint <path-to-CLAUDE.md>`);
   process.exit(2);
 }
 

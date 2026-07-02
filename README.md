@@ -7,10 +7,13 @@ Your `CLAUDE.md` keeps growing, and at some point Claude Code starts quietly ign
 `claude-md-lint` measures your file against that budget and flags the patterns that waste it.
 
 ```bash
-npx claude-md-lint CLAUDE.md
+npx github:Penloom-Studio/claude-md-lint CLAUDE.md
 ```
 
 No install, no dependencies, nothing leaves your machine.
+
+> **Heads-up:** the `claude-md-lint` package on the npm registry is an unrelated project by a
+> different author. Use the `github:` form above (or clone this repo) to get this tool.
 
 ## What it checks
 
